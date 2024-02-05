@@ -22,6 +22,7 @@ section{
 
 /*----HEADER START----*/
 
+
 #header{  /*Navbar Sabitlenemedi Başlıktaki group ve practice yanyana olmadı*/
    min-height: 94vh;
    width: auto;
@@ -33,6 +34,13 @@ section{
  
  
    
+}
+
+.banner-frame{
+    width: 100%;   
+    background-color:transparent;
+    z-index: 5000;
+    position: fixed;
 }
                                                             /*Değerlendirme Kriteri 9*/
 .navbar-bground {
@@ -50,12 +58,10 @@ section{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: fixed;
-    gap: 80px;
-    width: 65%;
+    width:90%;
     padding-top: 1%;
     padding-right: 5%;
-   z-index: 1000;
+    z-index: 1000;
     
    
  }
@@ -763,22 +769,23 @@ footer .container{
     }
     #navbar {
         position: absolute;
-        transform: translateY(-150%);
+        transform: translateY(-150%);/*navbarı göstermesin.*/
     }
     
     #header .container .banner{
-        width: 85%;
+        width: 100%;
     }
     .menu-btn:checked ~ #navbar{
         display: block;
+        text-align: center;
         top: 5%;
-        left: 3%;
-        width: 90%;
-        transform: translateY(0);
-        border-top: 0.1rem solid #FFFFFF;
-        box-shadow: 0 0.5rem 1rem #FFFFFF;
-        transition: 0.2s linear;
-        margin-top: 1rem;
+        left: 2%;
+        width: 95%;
+        transform: translateY(13%);
+        border-top: 0.05rem solid white;
+        box-shadow: 0 0.5rem 1rem white;
+        background-color: #355592;
+        flex-wrap: wrap;
     }
     .menu-btn:checked ~ #navbar ul{
         display: block;
@@ -787,10 +794,11 @@ footer .container{
         padding: 0 2rem;
     }
     .menu-icon{
-        display: block;
+        display: inline-block;
         width: 50px;
         color: #FFFFFF;
         cursor: pointer;
+      
     }
  /*Hamburger Menu END*/
 

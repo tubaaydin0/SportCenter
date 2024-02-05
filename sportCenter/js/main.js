@@ -132,7 +132,7 @@ weight.addEventListener("input", () =>{
 
                                           /*Değerlendirme Kriteri 9*/
 window.addEventListener('scroll', function () {
-    var navbar = document.querySelector('#header .container .banner');
+    var navbar = document.querySelector('.banner-frame');
    
     if (window.scrollY >10) {
         navbar.classList.add('navbar-bground');
