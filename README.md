@@ -3,8 +3,6 @@
 Bu projede örnek bir spor merkezinin web sayfası tasarlanmıştır.   
 
 
-    
-
 Kullanılan Teknolojiler:
 ---
 - HTML
@@ -24,4 +22,5 @@ Responsive yalnızca 576pxe göre ayarlanmıştır.
 
 **Not:**
 ----
-Projenin ilgili ekran görüntüleri "screenshots" klasöründe yer almaktadır.
+Projenin ilgili ekran görüntüleri "screenshots" klasöründe yer almaktadır.  
+İncelemek isterseniz https://sport-center-five.vercel.app/
